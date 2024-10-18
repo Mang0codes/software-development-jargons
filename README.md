@@ -1,6 +1,48 @@
--  ### 404
+# Common HTTP Error Messages
 
-    ### Error message when what was requested cannot be found; often because the link that was requested is either broken or dead.
+### 404 Not Found
+
+- The requested resource could not be found on the server.
+- **Example**: "The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+
+### 400 Bad Request
+
+- The server cannot process the request due to a client error (e.g., malformed request syntax).
+
+### 401 Unauthorized
+
+- Authentication is required, and the client has not provided valid credentials.
+
+### 403 Forbidden
+
+- The server understood the request but refuses to authorize it. 
+- **Example**: "You do not have permission to access this resource."
+
+### 405 Method Not Allowed
+
+- The request method is known by the server but is not supported for the requested resource (e.g., a POST request on a read-only resource).
+
+### 408 Request Timeout
+
+- The server timed out waiting for the request. This can occur if the client takes too long to send a request.
+
+### 500 Internal Server Error
+
+- A generic error message indicating that the server encountered an unexpected condition that prevented it from fulfilling the request.
+- **Example**: "An unexpected error occurred on the server. Please try again later."
+
+## 502 Bad Gateway
+
+- The server received an invalid response from an inbound server while acting as a gateway or proxy.
+
+## 503 Service Unavailable
+
+- The server is currently unable to handle the request due to temporary overload or scheduled maintenance.
+
+### 504 Gateway Timeout
+
+- The server did not receive a timely response from an upstream server while acting as a gateway or proxy.
+
 
     A
     =
