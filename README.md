@@ -98,6 +98,10 @@
     A comment adds explanatory notes to the code without affecting the document's layout and 
     functionality.
 
+-  ### Component:
+
+   A reusable, self-contained piece of UI in frameworks like React or Vue. Components can have their own state and logic.
+
 -  ### Cache
 
     The storage of certain elements to help with faster load times from repeat website visitors. Often developers will tell you to clear your browser's cache if they make a change on the website that you can't see --- most likely your cache is holding onto an older version and hasn't made room for the new one yet. (Kind of like that period of time between you moving to college and your parents converting your childhood bedroom into a home-office--slash--exercise-room.)
@@ -145,6 +149,10 @@
 
     D
     =
+
+-  ### DOM (Document Object Model): 
+
+    A programming interface for web documents. It represents the page so that programs can change the document structure, style, and content.
 
 -  ### Declaration: 
 
@@ -288,6 +296,10 @@
 
     S
     =
+
+-  ### State Management:
+
+   Refers to the way applications manage and store UI and business logic data, often using tools like Redux, MobX, or Context API.
 
 - ### SAAS Platforms
 
